@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+*{
+  box-sizing: border-box;
+}
+/* body{
+  font-family: 'Poppins', sans-serif;
+  
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+} */
+.quiz-container{
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 2px #444;
+  width: 60%;
+  height: auto;
+  overflow: hidden;
+  padding: 20px;
+  margin: 20px 20px;
+  align-content: center;
+}
+.quiz-header{
+  padding: 20px;
+}
+h1{
+    padding: 1rem;
+    /* text-align: center; */
+    margin: 0;
+  }
+h2{
+  padding: 1rem;
+  /* text-align: center; */
+  margin: 0;
+}
+ul{
+  list-style-type: none;
+  padding: 0;
+}
+ul li{
+  font-size: 20px;
+  margin: 1rem 0;
+}
+ul li label{
+  cursor: pointer;
+}
+button{
+  background-color: #5995fd;
+  color: #fff;
+  border: none;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: inherit;
+  padding: 1.3rem;
+}
+button:hover{
+  background-color: #444;
+}
+button:focus{
+  outline: none;
+  background-color: #44b927;
+}
+
+.question h2{
+  font-size: 20px;
+}
+
+
+.accordion{
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    padding: 20px;
+    
+}
+.accordion h1{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+}
+.accordion p{
+    font-size: 18px;
+    padding: 0 20px ;
+}
+.accordion-button{
+    font-size: 20px;
+    font-weight: bold;
+}
+.accordion-body{
+    font-size: 18px;
+}
+

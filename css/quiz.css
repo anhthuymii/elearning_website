@@ -1,0 +1,81 @@
+/* Nút Dropdown*/
+.nut_dropdown {
+    background-color: #a1eeca;
+    color: rgb(16, 16, 16);
+    padding-inline-start: 0px;
+    padding-inline-end: 26px;
+    font-size: 16px;
+    text-align:left;
+    border: none;
+  }
+  
+  /* Thiết lập vị trí cho thẻ div với class dropdown*/
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Nội dung Dropdown */
+  .noidung_dropdown {
+    /*Ẩn nội dụng các đường dẫn*/
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Thiết kế style cho các đường dẫn tronng Dropdown */
+  .noidung_dropdown a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-decoration: none
+  }
+  .hienThi{
+    display:block;
+  }
+
+
+
+  /* Nút Dropdown2*/
+.nut_dropdown2 {
+  background-color: #a1eeca;
+  color: rgb(16, 16, 16);
+  padding-inline-start: 0px;
+  padding-inline-end: 26px;
+  font-size: 16px;
+  text-align:left;
+  border: none;
+}
+
+/* Thiết lập vị trí cho thẻ div với class dropdown*/
+.dropdown2 {
+  position: relative;
+  display: inline-block;
+}
+
+/* Nội dung Dropdown */
+.noidung_dropdown2 {
+  /*Ẩn nội dụng các đường dẫn*/
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Thiết kế style cho các đường dẫn tronng Dropdown */
+.noidung_dropdown2 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+ 
+}
+.hienThi2{
+  display:block;
+}
